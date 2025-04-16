@@ -2,12 +2,13 @@
 
 // Toggle Hamburger Menu
 function toggleMenu() {
-    const menu = document.getElementById('navMenu');
-    menu.classList.toggle('active');
-  
-    const nav = document.querySelector('.nav');
-    nav.classList.toggle('active');
-  }
+  const menu = document.getElementById('navMenu');
+  console.log('Menu toggled:', menu); // Check if menu is selected
+  menu.classList.toggle('active');
+
+  const nav = document.querySelector('.nav');
+  nav.classList.toggle('active');
+}
   
   // Typing Animation for Roles
   document.addEventListener("DOMContentLoaded", () => {
