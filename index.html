@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayesh Patil | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- AOS (Animate On Scroll) Library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Lottie Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">Jayesh Pramod Patil</div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+          </div>
+          <nav class="nav">
+            <ul class="nav-links" id="navMenu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="resume/Jayesh_Patil_Resume_.pdf" download>Download Resume</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>       
+
+  <section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <div class="profile-img-container">
+        <img src="assets/images/Jayesh_photo.jpg" alt="Jayesh Pramod Patil" class="profile-img glow-border" />
+      </div>
+      <h1 class="hero-title">Hi, I'm <span>Jayesh Pramod Patil</span> 👋</h1>
+      <p class="typing-animation"></p>
+      <a href="resume/Jayesh_Patil_Resume_.pdf" class="btn-download" download>
+        <span>📄 Download Resume</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="about section" data-aos="fade-right">
+    <h2 class="section-heading">👨‍💻 About Me</h2>
+    <div class="about-content">
+      <p>Hi! I'm a <strong>Computer Science graduate</strong> with a deep love for <strong>data science, machine learning,</strong> and <strong>real-world problem solving</strong> using AI. From predicting student scores to analyzing hotel bookings and even building an <strong>anime recommender system</strong> — I enjoy turning data into decisions. 📊🤖</p>
+  
+      <ul class="about-highlights">
+        <li>🎯 Passionate about Machine Learning & Deep Learning</li>
+        <li>📈 Skilled in Python, SQL, TensorFlow, Power BI, and more</li>
+        <li>🧠 Always exploring AI tools like Generative AI & NLP</li>
+        <li>🛠️ Built projects that blend analytics with creativity</li>
+      </ul>
+  
+      <div class="fun-facts">
+        <h3>💬 A Bit More About Me</h3>
+        <p>🎯 I believe learning never stops — AI, business strategy, or just life itself, everything teaches you something.</p>
+        <p>📺 Data is my language, but anime keeps me inspired — it's about the balance, right?</p>
+        <p>🌱 Curiosity and creativity drive me — whether it's exploring new ML models or a new story arc.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="skills section" data-aos="fade-left">
+    <h2 style="text-align: center;">Skills</h2>
+    <div class="skill-icons">
+      <!-- Programming Languages -->
+      <div class="skill-card"><img src="assets/icons/python.png" alt="Python" /><p>Python</p></div>
+      <div class="skill-card"><img src="assets/icons/sql.png" alt="SQL" /><p>SQL</p></div>
+      <div class="skill-card"><img src="assets/icons/html-5.png" alt="HTML" /><p>HTML</p></div>
+      <div class="skill-card"><img src="assets/icons/css-3.png" alt="CSS" /><p>CSS</p></div>
+  
+      <!-- Database Systems -->
+      <div class="skill-card"><img src="assets/icons/mysql.png" alt="MySQL" /><p>MySQL</p></div>
+      <div class="skill-card"><img src="assets/icons/database.png" alt="MongoDB" /><p>MongoDB</p></div>
+  
+      <!-- Data Tools & Visualization -->
+      <div class="skill-card"><img src="assets/icons/dashboard.png" alt="Tableau" /><p>Tableau</p></div>
+      <div class="skill-card"><img src="assets/icons/dashboard (1).png" alt="Power BI" /><p>Power BI</p></div>
+      <div class="skill-card"><img src="assets/icons/xls.png" alt="Microsoft Excel" /><p>Excel</p></div>
+  
+      <!-- ML & Deep Learning -->
+      <div class="skill-card"><img src="assets/icons/icons8-tensorflow-100.png" alt="TensorFlow" /><p>TensorFlow</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-pytorch-100.png" alt="PyTorch" /><p>PyTorch</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-machine-learning-100.png" alt="Scikit-learn" /><p>Scikit-learn</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-nlp-100.png" alt="NLP" /><p>NLP</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-opencv-100.png" alt="Computer Vision" /><p>OpenCV</p></div>
+  
+      <!-- Cloud & DevOps -->
+      <div class="skill-card"><img src="assets/icons/google.png" alt="GCP" /><p>GCP</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-jenkins-100.png" alt="Jenkins" /><p>Jenkins</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-docker-100.png" alt="Docker" /><p>Docker</p></div>
+  
+      <!-- Version Control -->
+      <div class="skill-card"><img src="assets/icons/icons8-git-100.png" alt="Git" /><p>Git</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-github-100.png" alt="GitHub" /><p>GitHub</p></div>
+  
+      <!-- Web Frameworks -->
+      <div class="skill-card"><img src="assets/icons/icons8-flask-100.png" alt="Flask" /><p>Flask</p></div>
+  
+      <!-- Core Competencies -->
+      <div class="skill-card"><img src="assets/icons/icons8-data-cleaning-100.png" alt="Data Cleaning" /><p>Data Cleaning</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-etl-100.png" alt="ETL" /><p>ETL</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-exploratory-data-analysis-100.png" alt="EDA" /><p>EDA</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-data-visualization-100.png" alt="Data Visualization" /><p>Visualization</p></div>
+      <div class="skill-card"><img src="assets/icons/icons8-data-modeling-100.png" alt="Data Modeling" /><p>Data Modeling</p></div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section" data-aos="fade-up">
+    <h2 class="section-heading">Projects</h2>
+    <div class="project-cards">
+  
+      <div class="card">
+        <img src="assets\images\Student_Performance_Prediction.png" alt="Student Performance Prediction" />
+        <h3>Student Performance Prediction</h3>
+        <p>ML web app predicting academic performance. Built with Python, Flask, and CatBoost. Full ML pipeline implemented with 87% prediction accuracy.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Hotel_Reservation_Prediction.jpg" alt="Hotel Reservation Prediction" />
+        <h3>Hotel Reservation Prediction</h3>
+        <p>MLOps project to predict reservation cancellations. CI/CD with Jenkins, Docker, MLflow; deployed on GCP Cloud Run with a fully automated pipeline.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Anime_Recommender_System.jpg" alt="Anime Recommender System" />
+        <h3>Anime Recommender System</h3>
+        <p>KNN-based hybrid recommender using MyAnimeList data. Deployed on Kubernetes with Flask UI. Managed with Jenkins, DVC, and Docker for full CI/CD.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Property_Price_Prediction.jpeg" alt="Property Price Prediction" />
+        <h3>Property Price Prediction</h3>
+        <p>Regression project to predict property prices using multiple models. Gradient Boosting Regressor achieved best results with 0.879 R² score and lowest RMSE.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Bank_Marketing_Campaign_Analysis.jpeg" alt="Bank Marketing Campaign" />
+        <h3>Bank Marketing Campaign Analysis</h3>
+        <p>Classification model to predict customer subscription. Applied SMOTE, feature selection, and trained ML models. KNN achieved 84.58% accuracy.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Zomato_Data_Analysis.jpeg" alt="Zomato Data Analysis" />
+        <h3>Zomato Data Analysis</h3>
+        <p>Performed EDA on Bangalore restaurants dataset. Cleaned and transformed data, visualized trends in cost, rating, cuisines, and locations using Matplotlib, Seaborn, Plotly.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\CarDekho Car PriceInsights.jpeg" alt="CarDekho Car Analysis" />
+        <h3>Car Details from CarDekho</h3>
+        <p>EDA on used car dataset. Analyzed resale value trends, fuel type, transmission impact on pricing. Visualized patterns using Seaborn, Plotly, and statistical testing.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Autism_Predictio.jpeg" alt="Autism Prediction" />
+        <h3>Autism Prediction using ML</h3>
+        <p>Built and optimized ML models (Decision Tree, XGBoost) to predict ASD. Applied SMOTE, label encoding, and model tuning. Evaluated with accuracy and confusion matrix.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Weather_Data_Analysis.jpeg" alt="Weather Data Analysis" />
+        <h3>Weather Data Analysis</h3>
+        <p>Analyzed time-series weather data using Pandas. Identified correlations between features like temperature, humidity, pressure. Summarized trends and anomalies.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\ElectroWorld_Dashboard.jpeg" alt="ElectroWorld Analysis" />
+        <h3>ElectroWorld Data Analysis</h3>
+        <p>Used Power BI to visualize and build dashboards for retail data. Tasks included data loading, cleaning, visualization, and dashboard creation for business insights.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\Airline_Traffic.jpeg" alt="Airline Traffic Management" />
+        <h3>Airline Traffic Management</h3>
+        <p>Tableau-based project to analyze airline traffic data. Created dashboards for data insights and management. Focused on collection, visualization, and reporting.</p>
+      </div>
+  
+      <div class="card">
+        <img src="assets\images\myDiabetesApp.jpeg" alt="myDiabetesApp" />
+        <h3>myDiabetesApp</h3>
+        <p>Android app to monitor diabetes. Built with Java & Firebase. Tracks insulin dosage, carbs, and blood sugar. Includes forum, logs, and real-time health monitoring features.</p>
+      </div>
+  
+    </div>
+  </section>  
+
+  <section id="blogs" class="blogs section" data-aos="zoom-in">
+    <h2 style="text-align: center;">Blogs</h2>
+    <div class="blog-cards">
+  
+      <div class="card">
+        <a href="https://www.geeksforgeeks.org/ai-vs-ml-vs-data-science-what-should-you-learn/" target="_blank">
+          <img src="assets\images\AI_vs_ML_vs_Data_Science.jpeg" alt="AI vs ML vs Data Science" />
+          <h3>AI vs ML vs Data Science: What Should You Learn</h3>
+        </a>
+        <p>Explore the distinctions and overlaps between AI, ML, and Data Science to guide your learning path in 2025.</p>
+        <a href="https://www.geeksforgeeks.org/ai-vs-ml-vs-data-science-what-should-you-learn/" target="_blank">Read More</a>
+      </div>
+  
+      <div class="card">
+        <a href="https://cloud.google.com/blog/products/ai-machine-learning/how-google-cloud-approaches-enterprise-ai-and-ml" target="_blank">
+          <img src="assets\images\Google_Cloud_AI_&_ML.jpeg" alt="Google Cloud AI & ML" />
+          <h3>How Google Cloud Approaches Enterprise AI and ML</h3>
+        </a>
+        <p>Learn about Google's strategies for integrating AI and ML into enterprise solutions, including the Gemini 2.5 model.</p>
+        <a href="https://cloud.google.com/blog/products/ai-machine-learning/how-google-cloud-approaches-enterprise-ai-and-ml" target="_blank">Read More</a>
+      </div>
+  
+      <div class="card">
+        <a href="https://scale.com/research" target="_blank">
+          <img src="assets\images\Scale_AI_Research_Initiatives.jpeg" alt="Scale AI Research" />
+          <h3>Advancing AI Development: Scale AI's Research Initiatives</h3>
+        </a>
+        <p>Discover how Scale AI is accelerating AI development through research and high-quality training data.</p>
+        <a href="https://scale.com/research" target="_blank">Read More</a>
+      </div>
+  
+      <div class="card">
+        <a href="https://www.datasource.ai/en/data-science-articles" target="_blank">
+          <img src="assets\images\Insights_from_DataSource.jpeg" alt="Data Science Articles" />
+          <h3>Insights from DataSource.ai's Latest Articles</h3>
+        </a>
+        <p>Access a curated collection of data science and machine learning articles written by experts for professionals.</p>
+        <a href="https://www.datasource.ai/en/data-science-articles" target="_blank">Read More</a>
+      </div>
+  
+      <div class="card">
+        <a href="https://www.geeksforgeeks.org/machine-learning-versus-artificial-intelligence/" target="_blank">
+          <img src="assets\images\Machine_Learning_vs_Artificial_Intelligence.jpeg" alt="Machine Learning vs AI" />
+          <h3>Machine Learning vs Artificial Intelligence: Key Differences</h3>
+        </a>
+        <p>Understand the fundamental differences between machine learning and artificial intelligence to enhance your knowledge.</p>
+        <a href="https://www.geeksforgeeks.org/machine-learning-versus-artificial-intelligence/" target="_blank">Read More</a>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section id="contact" class="contact section" data-aos="fade-up">
+    <h2 style="text-align: center;">Contact Details</h2>
+    <div class="contact-buttons">
+      <a href="tel:+919096380075" class="contact-btn phone">📞 Call Me</a>
+      <a href="mailto:patiljayesh6908@email.com" class="contact-btn email">📧 Email Me</a>
+      <a href="https://www.linkedin.com/in/jayesh-patil-a8218324a/" class="contact-btn linkedin" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/jayesh-patil123" class="contact-btn github" target="_blank">💻 GitHub</a>
+    </div>
+  </section>
+
+  <button id="backToTop" onclick="scrollToTop()">🚀</button>
+
+  <script src="js/main.js"></script>
+  <script src="js/toggleTheme.js"></script>
+  <script src="js/scrollAnimations.js"></script>
+  <script src="js/funnyInteractions.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
